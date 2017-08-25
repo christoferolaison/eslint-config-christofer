@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-christofer",
+  "version": "1.0.0",
+  "description": "personal config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christoferolaison/eslint-config-christofer.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Christofer Olaison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christoferolaison/eslint-config-christofer/issues"
+  },
+  "homepage": "https://github.com/christoferolaison/eslint-config-christofer#readme",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "devDependencies": {
+    "np": "^2.16.0"
+  }
+}
