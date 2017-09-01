@@ -6,7 +6,7 @@
   "parser": "babel-eslint",
   "rules": {
     "semi": ["error", "never"],
-    "array-bracket-spacing": ["error", "always"],
+    "array-bracket-spacing": ["error", "always", { "objectsInArrays": false }],
     "space-before-function-paren": ["error", "never"],
     "comma-dangle": ["error", {
       "arrays": "always-multiline",
