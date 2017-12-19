@@ -1,7 +1,12 @@
 {
-  "extends": "airbnb",
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
+  "plugins": [
+    "flowtype"
+  ],
   "env": {
-    "jest": true
+    "jest": true,
+    "browser": true,
+    "node": true
   },
   "parser": "babel-eslint",
   "rules": {
@@ -15,8 +20,9 @@
       "exports": "always-multiline",
       "functions": "always-multiline"
     }],
-    "import/extensions": 0,
-    "react/jsx-filename-extension": 0,
+    "import/extensions": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-wrap-multilines": "off",
     "jsx-quotes": ["error", "prefer-single"]
   }
 }
